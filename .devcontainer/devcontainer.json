@@ -1,5 +1,7 @@
 {
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
+    "workspaceMount": "source=test,target=/examples,type=volume",
+    "workspaceFolder": "/examples"
 }
